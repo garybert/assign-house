@@ -1,0 +1,6 @@
+let picture = image.screenImage().clone()
+picture.drawLine(0, 0, 0, 50, 2)
+picture.drawLine(100, 50, 100, 100, 8)
+picture.drawLine(0, 0, 0, 0, 5)
+picture.drawLine(0, 0, 0, 0, 7)
+scene.setBackgroundImage(picture)
